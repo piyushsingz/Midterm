@@ -1,0 +1,147 @@
+button {color: white; background-color: brown;
+  border-radius: 15%;}
+  #caption {align-content: space-around;}
+  
+  
+  .carousel-img {
+      display: flex;
+      flex-direction: row;
+  }
+  h3{display: inline;}
+  .carousel-img {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1em 0;
+  }
+  
+  .carousel-img .caption {
+      flex: 1;  /* Each caption with its image takes up an equal portion of the width */
+      text-align: center;  /* Center the text elements */
+      margin: 0 1em;  /* Space between each image-caption combo */
+  }
+  
+  .carousel-img .caption img {
+      width: 100%;  /* Utilize the full width of the parent container */
+      margin-bottom: 1em;  /* Space between the image and its caption */
+  }
+  
+  
+  .contentbox{ image src:nature image ;
+      link rel="https://source.unsplash.com/1600x900/?nature,animals" height: 100px;
+  width: 20px; border: 2px;} 
+  /* Reset default margin and padding */
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    /* Set a background image for the landing area */
+    #landing {
+      background: url('your-background-image.jpg') center/cover no-repeat;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #fff;
+    }
+    
+    #landing h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+    
+    #landing h2 {
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+    }
+    
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #007BFF;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+    
+    .btn:hover {
+      background: #0056b3;
+    }
+    
+    /* Style the image captions */
+    .caption {
+      text-align: center;
+    }
+    
+    .caption h3 {
+      font-size: 1.5rem;
+      margin: 10px 0;
+    }
+    
+    .caption p {
+      font-size: 1rem;
+      margin: 10px 0;
+    }
+    
+    /* Style the footer */
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+    
+    footer h3 {
+      font-size: 1.5rem;
+      margin: 10px 0;
+    }
+    
+   
+    
+    /* Style the header for the "My Work" section */
+    #header {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+    
+    #header h2 {
+      font-size: 2rem;
+      margin: 10px 0;
+    }
+    
+    /* Style the carousel images */
+    .carousel-img {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin: 20px;
+    }
+    
+    .carousel-img .caption {
+      flex-basis: calc(33.33% - 20px);
+      margin: 10px;
+      text-align: center;
+    }
+    
+    /* Add more styling as needed */
+    
+    /* Responsive design for smaller screens */
+    @media (max-width: 768px) {
+      #landing {
+        background-size: cover;
+      }
+      
+      .caption {
+        flex-basis: calc(50% - 20px);
+      }
+      
+      #header h2 {
+        font-size: 1.5rem;
+      }
+    }
